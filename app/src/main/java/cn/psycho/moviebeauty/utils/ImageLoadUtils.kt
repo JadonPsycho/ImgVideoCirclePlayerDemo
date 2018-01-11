@@ -1,4 +1,4 @@
-package cn.psycho.circleplayer.utils
+package cn.psycho.moviebeauty.utils
 
 import android.content.Context
 import android.widget.ImageView

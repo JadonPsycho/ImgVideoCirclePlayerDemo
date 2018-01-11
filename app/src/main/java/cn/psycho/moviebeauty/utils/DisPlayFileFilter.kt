@@ -1,4 +1,4 @@
-package cn.psycho.circleplayer
+package cn.psycho.moviebeauty.utils
 
 import java.io.File
 import java.io.FilenameFilter

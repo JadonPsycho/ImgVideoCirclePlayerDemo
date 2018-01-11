@@ -1,4 +1,4 @@
-package cn.psycho.circleplayer.utils
+package cn.psycho.moviebeauty.utils
 
 import java.io.File
 

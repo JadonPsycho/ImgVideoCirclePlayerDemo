@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context="cn.psycho.circleplayer.MainActivity">
+    tools:context="cn.psycho.moviebeauty.MainActivity">
 
     <ImageView
         android:id="@+id/display_image"

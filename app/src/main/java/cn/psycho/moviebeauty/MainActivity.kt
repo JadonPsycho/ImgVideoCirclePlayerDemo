@@ -1,4 +1,4 @@
-package cn.psycho.circleplayer
+package cn.psycho.moviebeauty
 
 import android.Manifest
 import android.app.AlertDialog
@@ -14,7 +14,8 @@ import android.view.SurfaceHolder
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import cn.psycho.circleplayer.utils.PathUtils
+import cn.psycho.moviebeauty.utils.DisPlayFileFilter
+import cn.psycho.moviebeauty.utils.PathUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import kr.co.namee.permissiongen.PermissionFail
 import kr.co.namee.permissiongen.PermissionGen
@@ -23,7 +24,9 @@ import java.io.File
 import java.io.IOException
 import java.util.*
 
-
+/**
+ * 轮播图片视频的Activity
+ */
 class MainActivity : AppCompatActivity(), SurfaceHolder.Callback, MediaPlayer.OnCompletionListener,
         MediaPlayer.OnErrorListener, MediaPlayer.OnPreparedListener {
 

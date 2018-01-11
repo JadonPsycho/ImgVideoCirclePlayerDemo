@@ -1,4 +1,4 @@
-package cn.psycho.circleplayer
+package cn.psycho.moviebeauty
 
 import org.junit.Test
 
